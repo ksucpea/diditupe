@@ -325,7 +325,7 @@
   .pizza .specialty-section,
   .pizza .intro-section,
   .pizza .contact-section {
-    width: 80vw;
+    width: 85vw;
   }
 
   .pizza .specialty-section,
@@ -338,11 +338,12 @@
   }
 
   .pizza .nav-interior {
-    width: 80vw
+    width: 85vw
   }
 
   .pizza .equipment {
-    padding: 15px 0 0 0
+    padding: 15px 0 0 0;
+    min-width: 0;
   }
 
   .pizza .equipment-menu {
@@ -356,7 +357,12 @@
 
   .pizza .equipment-with-menu {
     flex-wrap: wrap-reverse;
-    width: 80vw;
+    width: 85vw;
     min-width: 0;
   }
+
+  .pizza .equipment-section-header {
+    font-size: 40px;
+  }
+  
 }
