@@ -113,6 +113,10 @@
   margin: 0 auto;
 }
 
+.pizza .intro-section {
+  margin-top: 110px;
+}
+
 .pizza .specialty-section .header-lg-cont {
   max-width: 30%;
 }
@@ -178,8 +182,9 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 160px);
 }
 
 .pizza .background {
