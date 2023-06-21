@@ -1,5 +1,3 @@
-
-
 .pizza {
   --bg: #fff;
   --text: #000;
@@ -249,7 +247,9 @@
   font-family: 'Wix Madefor Text', sans-serif
 }
 
-.pizza-footer p {font-size: 10px;}
+.pizza-footer p {
+  font-size: 10px;
+}
 
 .pizza .sub-section {
   margin-top: 15px;
@@ -260,7 +260,7 @@
 }
 
 .pizza .oven-description p {
-  font-size: 14px!important;
+  font-size: 14px !important;
 }
 
 .pizza .sub-section h3 {
@@ -388,5 +388,9 @@
   .pizza .section-header {
     font-size: 42px;
   }
-  
+
+  .pizza .section-header .pizza .equipment-section-header {
+    letter-spacing: normal;
+  }
+
 }
