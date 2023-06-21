@@ -384,5 +384,9 @@
   .pizza .equipment-section-header {
     font-size: 40px;
   }
+
+  .pizza .section-header {
+    font-size: 42px;
+  }
   
 }
