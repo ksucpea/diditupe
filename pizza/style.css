@@ -345,7 +345,7 @@
   .pizza .specialty-section-inner,
   .pizza .intro-section,
   .pizza .contact-section {
-    width: 85vw;
+    width: 88vw;
   }
 
   .pizza .specialty-section,
@@ -358,7 +358,7 @@
   }
 
   .pizza .nav-interior {
-    width: 85vw
+    width: 88vw
   }
 
   .pizza .equipment {
@@ -377,7 +377,7 @@
 
   .pizza .equipment-with-menu {
     flex-wrap: wrap-reverse;
-    width: 85vw;
+    width: 88vw;
     min-width: 0;
   }
 
