@@ -389,7 +389,7 @@
     font-size: 42px;
   }
 
-  .pizza .section-header .pizza .equipment-section-header {
+  .pizza .section-header, .pizza .equipment-section-header {
     letter-spacing: normal;
   }
 
