@@ -45,8 +45,8 @@ body, html {margin:0;background: #fff; position: relative; /*overflow-y: hidden;
 .scroll-btns {position: fixed; bottom: 0; right: 0; margin: 30px; z-index: 100;display: flex;gap:5px; }
 
 .portfolio {background: #ee11ec}
-.portfolio-panel {background: #000000c4; backdrop-filter: blur(10px); min-height: 120vh; width: 100vw; display: flex; align-items: center;justify-content: center;position: relative;z-index: 1;}
-.portfolio-project {border-radius:5px;background: #49494936; align-items: center; position: relative; color: var(--tmain); text-decoration: none;display: flex; width: 100%;}
+.portfolio-panel {background: #00000094; backdrop-filter: blur(10px); min-height: 120vh; width: 100vw; display: flex; align-items: center;justify-content: center;position: relative;z-index: 1;}
+.portfolio-project {border-radius:5px;background: #12121266; align-items: center; position: relative; color: var(--tmain); text-decoration: none;display: flex; width: 100%;}
 .bgpanel {height: 100vh; width: 100vw; align-items: center; justify-content: center;opacity: 0; position:fixed;top:0;left:0;display:flex;transition:1s opacity;}
 .bgpanel-text {font-size: 24px; font-weight: bold;max-width: 75vw;text-align:center}
 .portfolio-panel.empty {background: transparent;backdrop-filter: none;}
