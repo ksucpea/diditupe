@@ -46,9 +46,9 @@ body, html {margin:0;background: #fff; position: relative; /*overflow-y: hidden;
 
 .portfolio {background: #ee11ec}
 .portfolio-panel {background: #00000094; backdrop-filter: blur(10px); min-height: 120vh; width: 100vw; display: flex; align-items: center;justify-content: center;position: relative;z-index: 1;}
-.portfolio-project {border-radius:5px;box-sizing: border-box; padding: 10px; background: #12121266; align-items: center; position: relative; color: var(--tmain); text-decoration: none;display: flex; width: 100%;}
+.portfolio-project {border-radius:5px;box-sizing: border-box; padding: 10px; background: #1212123b; align-items: center; position: relative; color: var(--tmain); text-decoration: none;display: flex; width: 100%;}
 .bgpanel {height: 100vh; width: 100vw; align-items: center; justify-content: center;opacity: 0; position:fixed;top:0;left:0;display:flex;transition:1s opacity;}
-.bgpanel-text {font-size: 24px; font-weight: bold;max-width: 75vw;text-align:center}
+.bgpanel-text {font-size: 24px; font-weight: bold;max-width: 450px;color:#00000096;font-size: 65px;}
 .portfolio-panel.empty {background: transparent;backdrop-filter: none;}
 #test {height: 0px}
 .projects { gap:15px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); display: grid; width: 54vw;margin: 60px 10px;position: relative; height: 100%;}

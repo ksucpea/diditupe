@@ -21,3 +21,13 @@ body, html {margin:0;background: #fff; position: relative; /*overflow-y: hidden;
 .project-img-container {height: 75px; min-width: 75px; max-width: 75px; position: relative;}
 .project-info {box-sizing:border-box;margin-left: 15px}
 .portfolio-panel:nth-child(6) {min-height: 100vh}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
