@@ -101,8 +101,8 @@ body, html {margin:0;background: #fff; position: relative; /*overflow-y: hidden;
   background-color: #0e0e0e;
 }
 .hub-links-container {color: #fff;position: relative}
-.hub-links-container h1 {font-size: 22px}
-.hub-links {margin-top: 5px; font-style: normal;}
+.hub-links-container h1 {font-size: 24px}
+.hub-links {margin-top: 5px; font-style: normal;display: flex; column-gap: 10px; flex-wrap: wrap;max-width: 260px;}
 .hub-link {font-size: 15px; color: #fff; text-decoration: none; display: block;}
 #page {transition: .4s opacity linear}
 #background {position: fixed; z-index: 1}
