@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
 .crafting_slot {
     border-bottom: 3px solid #fefefe;
     border-left: 3px solid #313131;
@@ -13,8 +20,11 @@
     background: linear-gradient(#000000bd, #000000bd), url("https://i.pinimg.com/564x/49/e5/00/49e50066f7abd4b201e9a89fca949cfa.jpg");
     background-size: 64px;
     min-height: 100vh;
+    height: 100%;
     width: 100%;
-    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Minecraft';
 }
 
 .crafting_shell {
@@ -38,12 +48,17 @@
 }
 
 .blocksearcher {
-    width: 512px;
+    max-width: 300px;
+    height: 100%;
 }
 
 .searcher_blocks {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    max-height: 128px;
     overflow: auto;
+    max-height: 100%;
+}
+
+.step:nth-last-of-type(1) {
+    display: none;
 }
