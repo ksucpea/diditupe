@@ -374,7 +374,7 @@ html {
 .hub-cat {
   font-size: 24px;
   line-height: 26px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   /*background: #f72585;
   padding: 2px 5px;
   */
@@ -398,9 +398,9 @@ html {
   height: 4px;
   width: 100%;
   position: absolute;
-  bottom: -5px;
+  bottom: -7px;
   left: 0;
-  transform: skew(125deg, 0deg);
+  transform: skew(120deg, 0deg);
 }
 
 #page {
@@ -510,7 +510,7 @@ html {
 }
 
 #home-bg {
-  background: linear-gradient(#0606067d 10%, #040404d9 100%), url("https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background: linear-gradient(#0606067d 10%, #040404dd 100%), url("https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: 50% 33%;
   filter: contrast(1.4) hue-rotate(250deg);
   height: 100%;
