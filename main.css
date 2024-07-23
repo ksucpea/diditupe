@@ -510,9 +510,9 @@ html {
 }
 
 #home-bg {
-  background: linear-gradient(#0606067d 10%, #040404dd 100%), url("https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background: linear-gradient(#0606067d 10%, #040404df 100%), url("https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: 50% 33%;
-  filter: contrast(1.4) hue-rotate(250deg);
+  filter: contrast(1.36) hue-rotate(250deg);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -738,7 +738,7 @@ html {
     1335px 872px #fff, 1647px 1298px #fff, 1233px 1387px #fff, 698px 1036px #fff,
     659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
     696px 1654px #fff, 1144px 60px #fff;
-  animation: animate_stars 300s linear infinite;
+  animation: animate_stars 240s linear infinite;
 }
 
 .stars1:after {
@@ -985,7 +985,7 @@ html {
     1324px 8px #fff, 1967px 1814px #fff, 1072px 1401px #fff, 961px 37px #fff,
     156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
     986px 1529px #fff, 1667px 1137px #fff;
-  animation: animate_stars 200s linear infinite;
+  animation: animate_stars 160s linear infinite;
 }
 
 .stars2:after {
@@ -1084,7 +1084,7 @@ html {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
-  animation: animate_stars 100s linear infinite;
+  animation: animate_stars 80s linear infinite;
 }
 
 .stars3:after {
