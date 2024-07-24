@@ -1084,7 +1084,7 @@ html {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
-  animation: animate_stars 80s linear infinite;
+  animation: animate_stars 60s linear infinite;
 }
 
 .stars3:after {
@@ -1129,5 +1129,14 @@ html {
 
   100% {
     transform: translateY(-2000px);
+  }
+}
+
+@keyframes jiggle {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 2px;
   }
 }
