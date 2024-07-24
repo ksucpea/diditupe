@@ -225,7 +225,7 @@ html {
 }
 
 .bettercanvas-links {
-  color: #adadad;
+  color: #000;
   text-align: center;
   margin-top: 10px
 }
@@ -258,9 +258,11 @@ html {
 }
 
 .bettercanvas {
+  /*
   background: -webkit-linear-gradient(0deg, #ff002e, #ff5200, #ff47ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  */
   font-weight: bold;
 }
 
