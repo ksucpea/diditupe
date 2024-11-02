@@ -224,16 +224,20 @@ html {
   cursor: pointer
 }
 
-.bettercanvas-links {
+.bettercanvas-link {
   color: #000;
   text-align: center;
-  margin-top: 10px
-}
-
-.bettercanvas-links a {
   text-decoration: none;
-  font-weight: bold;
-  color: inherit
+  font-weight: 600;
+}
+.bettercanvas-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
 }
 
 .bc-container {
